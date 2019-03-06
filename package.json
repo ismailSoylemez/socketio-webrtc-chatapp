@@ -1,0 +1,48 @@
+{
+  "name": "socketio-webrtc-chatapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently 'npm run client' 'npm run server'",
+    "client": "react-scripts start",
+    "server": "nodemon ./server/bin/www",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkanhttp/socketio-webrtc-chatapp.git"
+  },
+  "author": "Furkan Hattapoğlu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furkanhttp/socketio-webrtc-chatapp/issues"
+  },
+  "homepage": "https://github.com/furkanhttp/socketio-webrtc-chatapp#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongoose": "^5.4.17",
+    "morgan": "~1.9.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

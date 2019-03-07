@@ -30,6 +30,7 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "bcrypt": "^3.0.4",
     "concurrently": "^4.1.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -40,9 +41,15 @@
     "morgan": "~1.9.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.85.0"
   },
   "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
     "nodemon": "^1.18.10"
   }
 }

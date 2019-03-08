@@ -9,6 +9,7 @@ import {
   Segment
 } from "semantic-ui-react";
 import PropTypes from "prop-types";
+import "../../node_modules/semantic-ui-css/semantic.min.css";
 
 const loginFormStyle = {
   backgroundColor: "#1a1a1a",
